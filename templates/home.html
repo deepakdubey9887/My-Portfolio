@@ -1,0 +1,18 @@
+{% extends 'base.html'%}
+
+{% block title %}
+    Home Page
+{% endblock %}
+
+{% block content %}
+    This is our content for the Home Page
+    <div>
+        <p><a href="{{ url_for('pandas') }}">Pandas notebook</a></p>
+    </div>
+    <div>
+        <p><a href="{{ url_for('covid19') }}">covid-19-analysis-visualization-comparisons</a></p>
+    </div>
+
+{% endblock %}
+
+
